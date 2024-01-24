@@ -1,0 +1,20 @@
+export default[
+    {
+        id:1,
+        name:'Walking',
+        image:'/walking.png',
+        carbon:0
+    },
+    {
+        id:2,
+        name:'Cycling',
+        image:'/bicycle.png',
+        carbon:0
+    },
+    {
+        id:3,
+        name:'Driving',
+        image:'/hands.png',
+        carbon:1
+    },
+]

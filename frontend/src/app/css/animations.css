@@ -1,0 +1,23 @@
+
+/* Rise Up Animation */
+.rise-up-animation-enter {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.rise-up-animation-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.rise-up-animation-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.rise-up-animation-exit-active {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}

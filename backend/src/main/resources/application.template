@@ -1,0 +1,15 @@
+# PostgreSQL Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5455/sustainablenavigation
+spring.datasource.username=postgres
+spring.datasource.password=password
+spring.jpa.hibernate.ddl-auto=update
+
+
+#Password Encoding
+security-config.strength=10
+security-config.expiration=5400000
+security-config.iterations=5
+
+#RSA
+security-config.private-key=classpath:keychain/private.pem
+security-config.public-key=classpath:keychain/public.pem
